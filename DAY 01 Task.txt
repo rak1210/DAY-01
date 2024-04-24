@@ -1,0 +1,29 @@
+
+--> HTTP/1.1 
+
+	The first usable version of HTTP was created in 1997. Because it went through several stages of development, this first version of HTTP was called HTTP/1.1. This version is still in use on the web.
+
+	HTTP/1.1, introduced in 1997, served as the cornerstone of web communication for over a decade. However, as web technologies advanced and the demands of modern web applications surged, HTTP/1.1 revealed its limitations.
+
+	Traditionally, in HTTP/1.1, clients initiate requests for each resource required to render a web page, leading to multiple round trips between the client and server.
+
+	Serial processing: Each request requires a separate TCP connection.
+
+	Header Compression: Headers sent in plain text, leading to redundant data transmission.
+	
+	Compatibility: Widely supported across browsers and servers.
+
+
+--> HTTP/2 
+
+	In 2015, a new version of HTTP called HTTP/2 was created. HTTP/2 solves several problems that the creators of HTTP/1.1 did not anticipate. In particular, HTTP/2 is much faster and more efficient than HTTP/1.1. One of the ways in which HTTP/2 is faster is in how it prioritizes content during the loading process. 
+
+	In HTTP/2, developers have hands-on, detailed control over prioritization. This allows them to maximize perceived and actual page load speed to a degree that was not possible in HTTP/1.1.
+
+	Conversely, HTTP/2 introduces multiplexing, allowing multiple streams of data to be transmitted concurrently over a single TCP connection. This multiplexing capability significantly reduces latency and optimizes resource usage, resulting in faster page load times and improved performance.
+
+	Concurrent streams: Multiple data streams transmitted over a single TCP connection.
+
+	Header Compression: HPACK compression reduces header size, minimizing overhead.
+
+	Compatibility: May require fallback mechanisms for legacy systems.
